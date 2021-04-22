@@ -1,2 +1,19 @@
-# Restarter
- Customizable Restarts
+<img src="https://media.discordapp.net/attachments/680757389456179200/834719208910356490/Restarter.png" alt="Icon Restarter" align="right">
+<div align="center">
+  <h1>Restarter</h1>
+  <h3>A plugin that allows you to restart the server on command, as well as after a certain period of time.
+</h3>
+  
+  [![SpigotMC](https://img.shields.io/badge/SpigotMC-Zhenaxel-9cf)](https://www.spigotmc.org/members/1005857/#resources)
+  [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/zhenaxel/Restarter/blob/main/LICENSE)
+</div>
+
+<div align="center">
+  <h2>Commands</h2>
+    <div align="left">
+      <p>- /reset - restart server
+- /restart - restart server
+- /restarter reload - reload plugin config
+- /autorestart- disable and enable autorestart</p>
+    </div>
+</div>
