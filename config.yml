@@ -1,0 +1,63 @@
+###################################################
+#  ____             _              _              #
+# |  _ \  ___  ___ | |_  __ _ _ __| |_  ___ _ __  #
+# | |_) |/ _ \/ __|| __|/ _` | '__| __|/ _ \ '__| #
+# |   _/|  __/\__ \| |_| (_| | |  | |_|  __/ |    #
+# |_|\_\ \___ |___/ \__|\__,_|_|   \__|\___|_|    #
+#                                            v1.4 #
+###################################################
+#                           
+### Contact with me:       
+#                           
+### DISCORD: Zhenaxel#3330 
+
+#Autorestart:
+### TIME IN TICKS! ###
+# 1 second = 20 tiks 
+# 1 minute = 1200 tiks
+### TIME IN TICKS! ###
+
+# true / false
+autorestart: true
+#ru: time = Время когда будет отправлено сообщение о рестарте
+#en: time = The time when the restart message will be sent
+time: 432000 #6 hours
+
+#ru: time-kick = Время когда кикнет людей
+#en: time-kick = The time when people are kicked off the server
+time-kick: 432200 #6 hours 10 second
+
+#ru: time-shutdown = время когда отключается сервер
+#en: time-shutdown = time the server shuts down
+time-shutdown: 432260 #6 hours 13 second
+
+#ru: Тоесть сообщение о рестарте, напишется через 6 часов после запуска плагина. 
+#ru: Кикнет людей через 10 секунд после сообщения о рестарте
+#ru: Сервер отключится через 3 секунды после кика людей
+
+#en: That is, the restart message will be written 6 hours after the plugin is launched.
+#en: The server will kick people 10 seconds after the restart message
+#en: The server will shut down in 3 seconds after the people are kicked out
+
+# Autorestart and commands:
+restart-message: "&6Server is restarting..."
+sound-name: ENTITY_EXPERIENCE_ORB_PICKUP
+sound-volume: 80
+sound-pitch: 1
+kick-reason: "&cServer is restarting!"
+cancelled-restart-console: "&cRestart canceled because value of 'autorestart' in plugin config = false!"
+cancelled-restart-server-broadcast: true
+cancelled-restart-server: "&cRestart canceled because value of 'autorestart' in plugin config = false!"
+
+# Commands:
+command-restarter: "&a&lUsage:&r\n/reset &e- &7restart server&f\n/restart &e- &7restart server&f\n/restarter reload &e- &7reload plugin config&f\n/autorestart &e- &7enable/disable autorestart\n&a&lPerms:&r\nrestarter.use &e- &7perm for all cmds" #use \n to create a new line
+command-autorestart: "&a&lUsage:&r\nchange 'command-autorestart: true' in config" #use \n to create a new line"
+succefully-command-restart: "&aYou have executed the restart command"
+succefully-reload-plugin: "&aDone!"
+
+# Permissions:
+restart-permission: restarter.use
+no-permission: "&cYou are not an administrator!"
+
+# true / false
+check-updates: true
