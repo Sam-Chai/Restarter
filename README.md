@@ -11,9 +11,9 @@
 <div align="center">
   <h2>Commands</h2>
     <div align="left">
-      <p>- /reset - restart server
-- /restart - restart server
-- /restarter reload - reload plugin config
-- /autorestart- disable and enable autorestart</p>
+      <p>◼ /reset - restart server</p>
+      <p>◼ /restart - restart server<p>
+      <p>◼ /restarter reload/help - reload plugin config, help menu<p>
+      <p>◼ /autorestart - enable or disable autorestart<p>
     </div>
 </div>
